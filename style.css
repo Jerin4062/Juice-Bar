@@ -1,7 +1,4 @@
-/* ======================== */
-/* RESET AND GLOBAL STYLES */
-/* ======================== */
-* {
+{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -14,9 +11,6 @@ body {
   line-height: 1.6;
 }
 
-/* ======================== */
-/* HEADER & NAVIGATION */
-/* ======================== */
 header {
   background-color: #ff5f2e;
   padding: 15px 0;
@@ -45,9 +39,6 @@ header {
   color: #ff5f2e;
 }
 
-/* ======================== */
-/* HERO SECTION */
-/* ======================== */
 .hero {
   text-align: center;
   padding: 80px 20px;
@@ -80,9 +71,6 @@ header {
   color: #fff;
 }
 
-/* ======================== */
-/* SECTIONS HEADINGS */
-/* ======================== */
 section h1 {
   text-align: center;
   color: #ff5f2e;
@@ -90,9 +78,6 @@ section h1 {
   margin-bottom: 40px;
 }
 
-/* ======================== */
-/* FEATURES / CARDS */
-/* ======================== */
 .features {
   display: flex;
   justify-content: center;
@@ -237,9 +222,6 @@ footer {
   margin-top: 50px;
 }
 
-/* ======================== */
-/* RESPONSIVE MEDIA QUERIES */
-/* ======================== */
 @media (max-width: 768px) {
   .features {
     flex-direction: column;
@@ -265,3 +247,4 @@ footer {
   max-width: 100%;
   border-radius: 12px;
 }
+
