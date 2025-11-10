@@ -1,6 +1,4 @@
-// ============================
-// FETCH ORDER STATUS
-// ============================
+
 const trackForm = document.querySelector('.track-section form');
 
 if (trackForm) {
@@ -16,7 +14,7 @@ if (trackForm) {
 
     try {
       // Replace this URL with your API endpoint
-      const response = await fetch('YOUR_FETCH_URL_HERE');
+      const response = await fetch('https://api.jsonbin.io/v3/b/6911f945ae596e708f50881d');
       if (!response.ok) throw new Error('Network response was not ok');
 
       const data = await response.json();
@@ -37,3 +35,4 @@ if (trackForm) {
     trackForm.reset();
   });
 }
+
